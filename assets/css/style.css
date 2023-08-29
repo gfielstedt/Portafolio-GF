@@ -20,7 +20,8 @@ h4 {
 }
 h2 {
   color: aqua;
-  font-weight: 400;
+  font-weight: 300;
+  background-color: #373a3c;
 }
 a {
   color: white;
@@ -46,6 +47,13 @@ a {
 #Contacto h2 {
   background-color: #373a3c;
   font-size: xx-large;
+}
+footer {
+  background-color: #373a3c;
+  padding: 8px;
+}
+footer .fa-brands {
+  text-align: center;
 }
 
 @media (max-width: 768px) {
