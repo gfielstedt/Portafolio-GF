@@ -8,127 +8,165 @@
     <!--bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--css-->
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<!--navbar-->
-<nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="#">Menu</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Sobre mi</a>
-                <a class="nav-link" href="#">Experiencia</a>
-                <a class="nav-link" href="#">Estudios</a>
-                <a class="nav-link" href="#">Proyectos</a>
-                <a class="nav-link" href="#">Contáctame</a>
-            </div>
-        </div>
-    </div>
-</nav>
-
-<!--card portafolio-->
-<!--grid 1*2*4-->
-<div class="container text-center">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/trivia.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Trivia</h5>
-                    <a href="https://gfielstedt.github.io/Trivia/" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/yoRegaloVida.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Yo Regalo Vida</h5>
-                    <a href="https://gfielstedt.github.io/DEV002-cipher/" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/poketoria.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Poketoria</h5>
-                    <a href="https://gfielstedt.github.io/DEV002-data-lovers/" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/mdLinks.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">MD-Links</h5>
-                    <a href="https://www.npmjs.com/package/md-links-gin?activeTab=code" class="btn btn-primary">Ver
-                        Repo</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/weStudy.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">We Study</h5>
-                    <a href="https://tourmaline-marshmallow-89b890.netlify.app" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/mi-cv.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Mi Primer Cv</h5>
-                    <a href="https://gfielstedt.github.io/CV-Ginessa-Fielstedt/" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/landing.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Landing Page Loki Toys</h5>
-                    <a href="https://gfielstedt.github.io/Landing-page/" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/igianas.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Iguana Page</h5>
-                    <a href="https://gfielstedt.github.io/iguana-page/" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/cuppon.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Cuppon</h5>
-                    <a href=" https://gfielstedt.github.io/Cuppon/" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/img/cv2.0.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title">Mi 2do Cv</h5>
-                    <a href="https://gfielstedt.github.io/fdsw-github/" class="btn btn-primary">Ver Web</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 
 <body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"></a>
+            <h2>GINESSA FIELSTEDT</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SOBRE MI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MIS PROYECTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTÁCTAME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--aboutme section-->
+    <header id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    ¿Codeamos Juntos?
+                </h1>
+                <h3>Front End Developer</h3>
+                <p class="my-5">
+                    Soy desarrolladora web Front End, egresada del bootcamp de <a
+                        href="https://www.laboratoria.la/">Laboratoria</a>
+                    Tengo experiencia en Javascript y React, también he desarrollado proyectos usando HTML5 Y CSS3 y
+                    Bootstrap.
+                    He trabajado en entornos como Node Js. Diseñé y maqueté en Figma y tengo experiencia en el uso de
+                    control de versiones. Me interesa la ciencia de datos y el desarrollo Back End es por ello que estoy
+                    estudiando desarrollo Full Stack en el bootcamp de <a href="https://desafiolatam.com/">Desafío
+                        Latam</a>
+                </p>
+                <div class="mb-5 pb-5">
+                    <button class="btn btn-lg btn-outline-info text-light me-4">PROYECTOS</button>
+                    <button class="btn btn-lg btn-info text-light">CONTÁCTAME</button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--experience & study-->
+    <div class="row">
+        <div class="col-6">EXPERIENCIA LABORAL</div>
+        <div class="col-6">EDUCACIÓN</div>
+    </div>
+
+    <!--card portafolio-->
+    <!--grid 1*2*4-->
+    <div class="container text-center">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 p-4">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/trivia.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Trivia</h5>
+                        <a href="https://gfielstedt.github.io/Trivia/" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/yoRegaloVida.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Yo Regalo Vida</h5>
+                        <a href="https://gfielstedt.github.io/DEV002-cipher/" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/poketoria.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Poketoria</h5>
+                        <a href="https://gfielstedt.github.io/DEV002-data-lovers/" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/mdLinks.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">MD-Links</h5>
+                        <a href="https://www.npmjs.com/package/md-links-gin?activeTab=code" class="btn btn-primary">Ver
+                            Repo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/weStudy.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">We Study</h5>
+                        <a href="https://tourmaline-marshmallow-89b890.netlify.app" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/mi-cv.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi Primer Cv</h5>
+                        <a href="https://gfielstedt.github.io/CV-Ginessa-Fielstedt/" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/landing.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Landing Page Loki Toys</h5>
+                        <a href="https://gfielstedt.github.io/Landing-page/" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/igianas.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Iguana Page</h5>
+                        <a href="https://gfielstedt.github.io/iguana-page/" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/cuppon.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cuppon</h5>
+                        <a href=" https://gfielstedt.github.io/Cuppon/" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/img/cv2.0.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mi 2do Cv</h5>
+                        <a href="https://gfielstedt.github.io/fdsw-github/" class="btn btn-primary">Ver Web</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
