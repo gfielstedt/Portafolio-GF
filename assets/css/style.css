@@ -56,10 +56,13 @@ footer {
   background-color: #373a3c;
   padding: 8px;
 }
-footer .fa-brands {
-  text-align: center;
+.icon {
+  display: flex;
+  justify-content: center;
 }
-
+.icon i {
+  padding-right: 20px;
+}
 @media (max-width: 768px) {
   #Contacto form {
     font-weight: 400;
